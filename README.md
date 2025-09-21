@@ -23,8 +23,7 @@ For set up the environment and install the dependency packages, please run the f
     conda install ipython notebook
     pip install torch==2.5.1, numpy==2.2.0, matplotlib==3.10.0, scikit-image==0.25.0, cigsegy==1.1.8, pylops==2.4.0
 
-
-    ## Model and data
+## Model and data
 
 Regarding the training data, we used two open source post-stack 3D seismic data:
 
