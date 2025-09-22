@@ -10,6 +10,14 @@
   <sup>2</sup> Jackson School of Geosciences, University of Texas at Austin
 </div>
 
+<div align="center">
+  <img src="https://img.shields.io/github/stars/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/repo-size/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="Repo Size" />
+  <img src="https://img.shields.io/github/last-commit/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="Last Commit" />
+  <img src="https://img.shields.io/badge/language-Jupyter%20Notebook-%233572A5" alt="Language" />
+</div>
+
 
 ## Abstract
 Missing traces in 3D seismic data are a recurring challenge caused by receiver malfunctions, acquisition limitations, and geological or environmental constraints. These gaps hinder accurate interpretation and further processing. Although numerous model-driven approaches have been developed in recent decades, they often struggle with reconstructing the data with complex geological structures and high missing ratios. To address these limitations, we proposed a U\textendash Net-enhanced Fourier Neural Operator (UFNO) 3D seismic reconstruction framework to achieve a mesh-invariant seismic reconstruction across different missing scenarios. The UFNO model leverages both spectral and spatial representations to learn a generalized reconstruction operator. We train the model on field 3D seismic cubes featuring three key missing-data patterns: random, trace-wise,  and regular. Experimental results demonstrate the superior reconstruction capability of UFNO across varying missing ratios. Moreover, the model exhibits strong generalization to unseen data with different resolutions, confirming its potential as a robust and adaptable tool for seismic data enhancement in real-world applications.
