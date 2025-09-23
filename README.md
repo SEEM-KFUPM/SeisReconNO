@@ -22,6 +22,18 @@
 ## Abstract
 Missing traces in 3D seismic data are a recurring challenge caused by receiver malfunctions, acquisition limitations, and geological or environmental constraints. These gaps hinder accurate interpretation and further processing. Although numerous model-driven approaches have been developed in recent decades, they often struggle with reconstructing the data with complex geological structures and high missing ratios. To address these limitations, we proposed a U-Net-enhanced Fourier Neural Operator (UFNO) 3D seismic reconstruction framework to achieve a mesh-invariant seismic reconstruction across different missing scenarios. The UFNO model leverages both spectral and spatial representations to learn a generalized reconstruction operator. We train the model on field 3D seismic cubes featuring three key missing-data patterns: random, trace-wise,  and regular. Experimental results demonstrate the superior reconstruction capability of UFNO across varying missing ratios. Moreover, the model exhibits strong generalization to unseen data with different resolutions, confirming its potential as a robust and adaptable tool for seismic data enhancement in real-world applications.
 
+## Reference
+    Traversa, Alessandro and Cui, Yang, and Waheed, Umair Bin and Chen, Yangkang. (2025). SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction. TBD.
+BibTex
+
+    @article{SeisReconNO2025,
+      title={SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction},
+      author={Traversa, Alessandro and Cui, Yang, and Waheed, Umair Bin and Chen, Yangkang.},
+      journal={TBD},
+      year={2025},
+      publisher={TBD}
+    }
+
 
 ## Install 
 For set up the environment and install the dependency packages, please run the following script:
@@ -109,8 +121,4 @@ The training process workflow can be divided into 4 steps:
     Yang Cui & Alessandro Traversa
     yang.cui512@gmail.com
     traversa942@gmail.com
-
-## References
-
-    1) Wen, G., Li, Z., Azizzadenesheli, K., Anandkumar, A., & Benson, S. M. (2022). U-FNO—An enhanced Fourier neural operator-based deep-learning model for multiphase flow. Advances in Water Resources, 163, 104180.
-    2) Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier neural operator for parametric partial differential equations. arXiv preprint arXiv:2010.08895.
+differential equations. arXiv preprint arXiv:2010.08895.
