@@ -28,12 +28,12 @@ Missing traces in 3D seismic data are a recurring challenge caused by receiver m
 BibTex
 
     @article{traversa2026seisreconno,
-  title={SeisReconNO: Leveraging a U--Net-Enhanced Fourier neural operator for 3D seismic reconstruction},
-  author={Traversa, Alessandro and Cui, Yang and Waheed, Umair Bin and Chen, Yangkang},
-  journal={Artificial Intelligence in Geosciences},
-  pages={100212},
-  year={2026},
-  publisher={Elsevier}}
+    title={SeisReconNO: Leveraging a U--Net-Enhanced Fourier neural operator for 3D seismic reconstruction},
+    author={Traversa, Alessandro and Cui, Yang and Waheed, Umair Bin and Chen, Yangkang},
+    journal={Artificial Intelligence in Geosciences},
+    pages={100212},
+    year={2026},
+    publisher={Elsevier}}
 
 
 ## Install 
